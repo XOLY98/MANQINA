@@ -1,0 +1,60 @@
+
+ul{
+list-style-type: none;
+margin: 5px;
+padding:10px;
+overflow:scroll;
+background-color:rgb(223, 139, 29);
+}
+li{
+    display: inline;
+}
+li{
+    float:left;
+}
+li a{
+    display: block;
+    color:beige;
+    text-align: center;
+    padding:14px 15px ;
+    text-decoration: none;
+}
+.button{
+    background-color:darkslategrey;
+    border:antiquewhite;
+    padding:2px;
+    text-align: center;
+    text-decoration: none;
+    display: inline;
+    font-size: 30px;
+    margin: 2px;
+    cursor: pointer;
+}
+
+h1{
+    color:brown;
+    font-size:80px;
+}
+li a:hover{
+    background-color: brown;
+}
+h2{
+    color:darkgoldenrod;
+    font-size: 37px;
+    
+}
+p{
+    color:black;
+    font-size: 25px;
+}
+img{
+    width: 200px;
+    height: 300px;
+    object-fit: fill;
+    object-position: 80% 100%;
+}
+
+
+
+    
+
