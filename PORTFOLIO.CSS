@@ -20,7 +20,7 @@ li a{
     text-decoration: none;
 }
 .button{
-    background-color:darkslategrey;
+    background-color:brown;
     border:antiquewhite;
     padding:2px;
     text-align: center;
@@ -28,6 +28,7 @@ li a{
     display: inline;
     font-size: 30px;
     margin: 2px;
+    color: antiquewhite;
     cursor: pointer;
 }
 
@@ -41,6 +42,7 @@ li a:hover{
 h2{
     color:darkgoldenrod;
     font-size: 37px;
+    font-style: italic;
     
 }
 p{
@@ -48,11 +50,35 @@ p{
     font-size: 25px;
 }
 img{
-    width: 200px;
-    height: 300px;
+    width: 150px;
+    height: 150px;
     object-fit: fill;
     object-position: 80% 100%;
 }
+input[type=text],select{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline;
+    border: 5px solid burlywood;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+input[type=submit] {
+    width: 100%;
+    background-color: rgb(28, 25, 20);
+    color:antiquewhite;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type=submit]:hover{
+    background-color:brown;
+}
+
+
 
 
 
